@@ -1,2 +1,38 @@
-# book-search-API
-This is a book search application that uses the Google Books API. Any user can search for books based on keywords. A logged-in user can save books to a list in his or her account.
+# book-search
+
+## **Description**
+
+Refactor a fully functioning Google Books API search engine built with a RESTful API as a GraphQL API built with Apollo Server. The original app was built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API. It was already set up to allow users to save book searches to the back end.
+
+## **Table of Contents**
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [License](#license)
+4. [Contributing](#contributing)
+5. [Tests](#tests)
+6. [Questions](#questions)
+
+## **Installation**
+To install this project with necessary dependencies run the following command:
+install
+
+## **Usage**
+ A book search application that uses Google Books API
+
+## **License** 
+This project is licensed under the MIT license.
+
+## **Contributing**
+ Katlyn Boches
+
+## **Tests**
+To run tests, run the following command:
+test
+
+## **Questions**
+If you have any questions about this repo, open an issue or contact me directly at: [katlynboches@gmail.com](mailto:katlynboches@gmail.com). You can find more of my work at [Katlyn627](https://www.github.com/Katlyn627).
+
+## **Deployment** 
+
+Github: You can find the deployment link at [Katlyn627](https://www.github.com/Katlyn627).
+
