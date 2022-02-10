@@ -26,8 +26,8 @@ const SignupForm = () => {
       event.preventDefault();
       event.stopPropagation();
     }
-
     try {
+      console.log('USER FORM DATA PRIOR TO SUBMISSION-->', userFormData)
       const response = await createUser(userFormData);
 
       if (!response.ok) {
@@ -54,7 +54,7 @@ const SignupForm = () => {
       {/* This is needed for the validation functionality above */}
       <Form noValidate validated={validated} onSubmit={handleFormSubmit}>
         {/* show alert if server response is bad */}
-        <Alert dismissible onClose={() => setShowAlert(false)} show={showAlert} variant='danger'>
+        <Alert dismissible onClose={() => setShowAlert(true)} show={showAlert} variant='danger'>
           Something went wrong with your signup!
         </Alert>
 
