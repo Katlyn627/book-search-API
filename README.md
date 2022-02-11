@@ -1,5 +1,10 @@
 # book-search
 
+## Walkthough
+
+![Book Search](https://user-images.githubusercontent.com/86095070/153653800-6d37def5-7f2a-42d5-8ff7-5ba43897d99e.gif)
+
+
 ## **Description**
 
 Refactor a fully functioning Google Books API search engine built with a RESTful API as a GraphQL API built with Apollo Server. The original app was built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API. It was already set up to allow users to save book searches to the back end.
@@ -35,4 +40,4 @@ If you have any questions about this repo, open an issue or contact me directly 
 ## **Deployment** 
 
 Github: You can find the deployment link at [Katlyn627](https://www.github.com/Katlyn627).
-
+Deployed App: You can find the deployed App at [Heoku](https://my-book-search-api.herokuapp.com/)
