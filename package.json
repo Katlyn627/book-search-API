@@ -14,8 +14,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "apollo-client": "^2.6.10",
-    "graphql": "^15.5.2"
+    "@apollo/react-hooks": "^4.0.0",
+    "apollo-boost": "^0.4.9",
+    "heroku": "^7.59.2",
+    "if-env": "^1.0.4"
   },
   "devDependencies": {
     "concurrently": "^5.2.0"
