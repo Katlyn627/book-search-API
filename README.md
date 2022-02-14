@@ -2,7 +2,10 @@
 
 ## Walkthough
 
-![Book Search](https://user-images.githubusercontent.com/86095070/153653800-6d37def5-7f2a-42d5-8ff7-5ba43897d99e.gif)
+![Signup and Logout](https://user-images.githubusercontent.com/86095070/153955821-6f4a9392-e7a8-4b33-91f9-df21b34fbe7a.gif)
+![Login and Logout](https://user-images.githubusercontent.com/86095070/153955835-b4985912-618b-44f3-b0e4-75378b50770f.gif)
+![Search Book](https://user-images.githubusercontent.com/86095070/153955845-4b2438a5-e372-453b-ada5-bf5c81a150fc.gif)
+
 
 
 ## **Description**
@@ -40,4 +43,4 @@ If you have any questions about this repo, open an issue or contact me directly 
 ## **Deployment** 
 
 Github: You can find the deployment link at [Katlyn627](https://www.github.com/Katlyn627).
-Deployed App: You can find the deployed App at [Heoku](https://my-book-search-api.herokuapp.com/)
+Deployed App: You can find the deployed App at [Heroku](https://my-book-search-api.herokuapp.com/)
