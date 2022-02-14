@@ -14,7 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "apollo-client": "^2.6.10",
-    "graphql": "15.8.0"
+    "graphql": "15.8.0",
+    "heroku": "^7.59.2"
   },
   "devDependencies": {
     "concurrently": "^5.2.0"
