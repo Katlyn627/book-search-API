@@ -9,7 +9,7 @@ import { removeBookId, saveBookIds } from '../utils/localStorage';
 const SavedBooks = () => {
   const { loading, data } = useQuery(GET_ME);
   const userData = data?.me || {};
-  
+  // eslint-disable-next-line
   const [removeBook, { error }] = useMutation(REMOVE_BOOK);
   
 
@@ -22,7 +22,7 @@ const SavedBooks = () => {
     }
 
     try {
-      
+      // eslint-disable
       const { data } = await removeBook({
         variables: { bookId },
       });
