@@ -13,11 +13,7 @@ const LoginForm = () => {
   const [login, { error }] = useMutation(LOGIN_USER);
 
   useEffect(() => {
-    if (error) {
-      setShowAlert(true);
-    } else {
-      setShowAlert(false);
-    }
+    error ? setShowAlert(true) : setShowAlert(false);
   }, [error]);
 
   const handleInputChange = (event) => {
@@ -47,6 +43,7 @@ const LoginForm = () => {
     }
 
     setUserFormData({
+      username:'',
       email: '',
       password: '',
     });
