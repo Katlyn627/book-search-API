@@ -13,7 +13,7 @@ const SearchBooks = () => {
 
   // create state to hold saved bookId values
   const [savedBookIds, setSavedBookIds] = useState(getSavedBookIds());
-
+  // eslint-disable-next-line
   const [saveBook, {error}] = useMutation(SAVE_BOOK);
 
   // set up useEffect hook to save `savedBookIds` list to localStorage on component unmount
@@ -70,6 +70,7 @@ const SearchBooks = () => {
     }
 //try catch block to work within, use spread & pass into bookData how to pass token tho?
     try {
+      // eslint-disable-next-line
       const {data} = await saveBook({
         variables: { bookData: bookToSave },
       });
